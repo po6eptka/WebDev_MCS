@@ -1,0 +1,78 @@
+@import url(reset.css);
+body {
+	background: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
+.headering {
+	background-color: #FDF5E6;
+	background-size: cover;
+	height: 150px;
+
+ font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 50px;
+	color:#D2B48C;
+	word-spacing: 25px;
+	    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+
+	text-align: center;
+}
+
+.HeadImage {
+	background-image: url(../img/Pugs.jpg);
+	background-size: cover;
+	height: 500px;
+	background-attachment: fixed;
+}
+.linksNavSec {
+    background-size: cover;
+	background-color: #FDF5E6;
+	padding: 15px 15px; 
+
+font-family: 'Arial', cursive;
+font-weight: normal;
+font-size: 15px;
+
+
+text-align: center;
+
+}
+
+.link {
+	color: brown;
+}
+
+.contentText {
+	font-size: 17px;
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	text-align: justify;
+
+}
+
+.headText {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 30px;
+
+	word-spacing: 5px;
+    text-align: left;
+
+    text-indent: 15px;
+}
+ 
+.FooTer{
+	background-size: cover;
+	height: 30px;
+	background-color: #FDF5E6;
+
+	text-align: center;
+
+	font-size: 30px;
+	font-family: 'Lora', serif;
+	font-weight: lighter; 
+}
+
+

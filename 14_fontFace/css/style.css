@@ -1,0 +1,19 @@
+@font-face {
+	src: url(../font/8289.otf);
+	font-family: 'Shrift';
+	font-weight: normal;
+}
+ .headering {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Shrift';
+}
+
+.paragraph p {
+	font-family: 'Shrift';
+}
+
+.paragraphTwo p {
+font-family: 'Shrift';
+}
