@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+.SECone {
+	background-color: yellow;
+	height: 300px;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+.SECtwo {
+	background-color: orange;
+	height: 300px;
+	width: 200px;
+	display: inline-block;
+}
+
+.ImageOne {
+	height: 300px;
+	width: 200px;
+	background-image: url(../img/Pug_cartoon.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+
+}
+
+.ImageTwo {
+	height: 300px;
+	width: 200px;
+	background-image: url(../img/sobaka_mops.jpg);
+	background-repeat: no-repeat;
+	display:inline-block;
+}
+
+a{
+	width: 30px;
+	height: 50px;	
+	display: block;
+	margin:auto;
+}
