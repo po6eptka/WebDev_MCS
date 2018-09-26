@@ -1,0 +1,82 @@
+@import url(reset.css);
+
+		@keyframes rotate {
+			0% {
+				top: 450px;
+				left: 320px;
+
+			}
+			17% {
+				top: 320px;
+				left: 370px;
+			}
+
+			34% {
+				top: 320px;
+				left: 665px;
+			}
+			51% {
+				top: 460px;
+				left: 725px;
+			}
+
+			68% {
+				top: 650px;
+				left: 665px;
+			}
+
+			85% {
+				top: 650px;
+				left: 390px;
+			}
+
+			100% {
+				top: 450px;
+				left: 320px;
+			}
+
+		}
+		.page {
+		  /* эти единицы измерения мы изучим чуть похже */
+			width: 100vw;
+			height: 100vh;
+			background-size: cover;
+			background-image: url(http://mirpozitiva.ru/uploads/posts/2016-11/medium/1480505775_cosmos_0011.jpg);
+			display: flex;
+			position: relative;
+		}
+		.sun {
+			width: 300px;
+			height: 300px;
+			background-image: url(http://priroda.inc.ru/animation/zon/gif/s11.png);
+			background-size: cover;
+			background-position: center;
+			margin: auto;
+		}
+
+		.sun:hover {
+	transform: rotate(180deg);
+}
+
+.sun:active {
+	width: 250px;
+	height: 250px;
+}
+
+
+		.earth {
+			width: 400px;
+			height: 400px;
+			background-image: url(https://clipart-db.ru/file_content/rastr/planet-006.png);
+			background-size: 80px;
+			background-repeat: no-repeat;
+			background-position: right top;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -200px;
+			margin-left: -200px;
+
+			animation: rotate 4s ease-in-out 0.005s infinite normal;
+			
+		}
