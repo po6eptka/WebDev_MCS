@@ -1,0 +1,18 @@
+@import url(reset.css);
+
+/*html {
+	font-size: 100px;
+
+}*/
+
+.outer {
+	font-size: 50px;
+}
+
+.outer h1 {
+	font-size: 1.5em;
+}
+
+.outertwo {
+	font-size: 2rem; /*rem смотрит в корень, то есть на html*/
+}

@@ -1,0 +1,34 @@
+@import url(reset.css);
+
+
+.columnsMain {
+	min-height: 500px;
+	border: 1px solid black;
+	display: flex;
+}
+
+.column.two {
+
+    width: 240px;
+    height: 720px;
+    background-color: orange;
+}
+
+.column.one {
+	height: 1020px;
+	background-color: navy;
+	width: calc(100% - 240px); 
+}
+
+.columnsMyPain {
+    min-height: 500px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.columnARD {
+	width: calc((100% - 50px)/3);
+	height: 100px;
+	background-color: red;
+}
