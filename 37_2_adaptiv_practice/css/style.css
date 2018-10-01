@@ -1,0 +1,122 @@
+
+@import url(reset.css);
+
+html {
+	font-size: 20px;
+}
+
+.TheHeadOfPage {
+	height: 8vh;
+	width: 100vw;
+	background-color: #2F4F4F;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	text-decoration: bolder;
+	font-weight: bolder;
+	padding-top: 15px;
+}
+
+.TheMainColumn {
+	width: 75vw;
+	margin: auto;
+	min-width: 500px;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 15px 0 15px 0;
+	font-size: 20px;
+}
+
+.column {
+	margin: auto;
+	height: 400px;
+	width:calc((100% - 80px)/4);
+	box-shadow: 0px 0px 10px black;
+}
+
+
+h1, h2, h3, h4 {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 10px;
+	font-weight: bolder;
+}
+
+.contentText {
+	padding: 10px 8px 10px 8px;
+	text-align: justify;
+}
+
+.veryBoring {
+	height: 6vh;
+	background-color: #2F4F4F;
+	color: white;
+	font-size: 1rem;
+	text-align: center;
+	padding-top: 10px;
+}
+
+@media screen and (min-width: 315px) {
+.TheMainColumn {
+	flex-direction: column;	
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	padding: 35px 0 35px 0;
+	font-size: 20px;
+}
+.column {
+	margin-top:25px;
+	width: 250px;
+}
+
+.TheHeadOfPage {
+	width: 500px;
+}
+
+.veryBoring {
+	width: 500px;
+}
+
+}
+
+@media screen and (min-width: 760px) {
+	.TheMainColumn {
+	flex-direction: row;
+	width: 95vw;
+}
+.TheHeadOfPage {
+	width: 100vw;
+}
+.veryBoring {
+	width: 100vw;
+}
+}
+
+@media screen and (min-width: 1264px) {
+	.TheMainColumn {
+	flex-direction: row;
+	width: 75vw;
+}
+.TheHeadOfPage {
+	width: 100vw;
+}
+.veryBoring {
+	width: 100vw;
+}
+}
+
+@media screen and (min-width: 1904px) {
+	.TheMainColumn {
+	flex-direction: row;
+	width: 75vw;
+}
+.TheHeadOfPage {
+	width: 100vw;
+}
+.veryBoring {
+	width: 100vw;
+}
+}
