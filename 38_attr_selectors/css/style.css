@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+img[src="https://files.adme.ru/files/news/part_120/1208010/preview-14957065-1200x630-99-1484644866.jpg"] {
+	width: 200px;
+	
+}
+
+img[alt="vesnaOxyet"] {
+	width: 600px;
+}

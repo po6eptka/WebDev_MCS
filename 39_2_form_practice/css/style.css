@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.page {
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.TheHeadOfPage {
+	height: 10vh;
+	width: 100vw;
+	background-color: #2F4F4F;
+	font-size: 2.5rem;
+	color: white;
+	text-align: center;
+	text-decoration: bolder;
+	font-weight: bolder;
+	padding-top: 15px;
+}
+
+form {
+	margin: 50px 180px;
+	width: 70%;
+	border: 1px solid gray;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	border-radius: 5%;
+}
+
+input, select, textarea {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+
+input {
+	height: 50px;
+}
+
+label, span {
+	line-height: 4rem;
+	font-size: 30px;
+}
+
+label {
+	display: block;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: solid;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+	vertical-align: middle;
+}
+
+textarea {
+	height: 300px;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: white;
+	height: 50px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #2F4F4F;
+	color: white;
+}
+
+.down {
+	height: 6vh;
+	background-color: #2F4F4F;
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 10px;
+}
+
+/*@media screen and (min-width: 720px) {
+	form {
+		display: flex;
+		justify-content: space-between;
+	}
+}

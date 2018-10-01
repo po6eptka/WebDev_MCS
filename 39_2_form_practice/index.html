@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Обратная связь</title>
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="feedback,test, forms">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="TheHeadOfPage">Форма обратной связи</header>
+<div class="page">
+	<form action="http://free.allforms.mailjol.net/u/46a91746.php">
+		<div class="column one">
+		<fieldset class="personal">
+			<label for="fio">Ваше имя: </label>
+			<input type="text" name="fio" required placeholder="Иван, Люся">
+
+			<label for="email">Ваш e-mail:</label>
+			<input type="email" name="email" required placeholder="yog@example.com">
+		</fieldset>
+		</div>
+        <div class="column two">
+		<fieldset class="type">
+			
+			<label for="client">Были ли у Вас обращения к нам?</label>
+			<input type="radio" name="client" value="yes" checked="true"> <span>да</span>
+			<input type="radio" name="client" value="no"> <span>нет</span>
+            
+            <label for="purpose">Выберите тему письма: </label> 
+			<select name="purpose">
+				<option value="null">-Выбор темы-</option>
+				<option value="refound">Возврат товара</option>
+				<option value="delivery">Сроки получения</option>
+				<option value="tet-a-tet">Личное обращение</option>
+			</select>
+		</fieldset>
+
+		<fieldset class="message">
+			<label for="message">Текст Вашего сообщения</label>
+			<textarea name="message">Здесь будет Ваше сообщение...</textarea>
+
+			<input type="checkbox" checked="true"> <span>Согласие на обработку персональных данных</span>
+		</fieldset>
+		<input type="submit">
+		</div>
+	</form>
+</div>
+</body>
+<footer class="down">Copyright 2018</footer>
+</html>
